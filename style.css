@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(-45deg, #ffffff, #ffbbb6, #f8d1dc, #fcece9);
+  background-size: 400% 400%;
+background-attachment: fixed;
+padding-bottom: 2rem;
+}
+
+.logo {
+  font-family: 'Ultra', serif;
+}
+
+.mini-icon {
+  width: 20px;
+}
+
+.display-6 {
+font-size: 2.5rem;
+font-weight: 300;
+line-height: 1.2;
+}
+
+.bg {
+  background: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), #ff7166 1px, transparent 1px, transparent 100%);
+  background-size: 40px 40px;
+  z-index: -1;
+}
+
+.rt-45 {
+  transform: rotate(45deg);
+}
